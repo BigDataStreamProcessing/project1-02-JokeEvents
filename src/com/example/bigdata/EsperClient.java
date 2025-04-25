@@ -92,7 +92,7 @@ public class EsperClient {
         try {
             String epl_1 = """
                     @public @buseventtype create json schema JokeEvent(character string, quote string, people_in_room int, laughing_people int, pub string, ets string, its string);
-                    @name('result') SELECT character, quote, people_in_room, laughing_people, pub, ets, its from JokeEvent.win:time(10 sec)
+                    @name('answer') SELECT character, quote, people_in_room, laughing_people, pub, ets, its from JokeEvent.win:time(10 sec)
                     group by character;""";
 
             epCompiled = compiler.compile(epl_1, compilerArgs);
