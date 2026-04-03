@@ -86,7 +86,7 @@ Wyniki powinny zawierać następujące kolumny:
 - `its_start` - czas rozpoczęcia minuty.
 
 ## Zadanie 5
-Wykrywaj serię żartów w pubie o nazwie McLaren's, podczas których 
+Wykrywaj serię żartów w pubie o nazwie "McLaren's Pub", podczas których 
 śmiejąca się liczba osób nie wzrastała powyżej 5.
 Seria kończy się przed żartem, w którym liczba 
 śmiejących się osób przekroczyła 5.
